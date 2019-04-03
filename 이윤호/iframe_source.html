@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color: skyblue;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    iframe에서 frameborder 옆에 sandbox를 입력하면 여기서 할 수 있는 공격적인 스크립트들이 실행되지 않음
+    <form action="1.html">
+      <input type="text">
+      <input type="submit">
+    </form>
+    <script>
+      alert('Hello World');
+    </script>
+  </body>
+</html>
